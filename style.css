@@ -2,10 +2,7 @@
     border-radius: .5em;
 }
 
-.background-image {
-    background:url("../images/bg-image1.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+body {
+    background: url("bg-image1.jpg") no-repeat center center fixed;
     background-size: cover;
   }
