@@ -1,3 +1,9 @@
 #hero-pic{
     border-radius: 2em;
 }
+
+.container-fluid{
+    background-repeat:no-repeat;
+    background-image:url('bgimg.jpg');
+    background-position:center;
+}
