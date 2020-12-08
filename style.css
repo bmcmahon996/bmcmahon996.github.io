@@ -6,4 +6,8 @@ body {
     background: url("bg-image1.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-  }
+}
+
+.container-fluid{
+    color: rgb(240, 248, 255);
+}
