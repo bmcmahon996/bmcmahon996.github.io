@@ -70,7 +70,7 @@ body {
     background-color: rgb(213, 225, 235);
 }
 
-.contact-button{
+#contact-button{
     background-color: rgb(213, 225, 235);
     cursor: pointer;
     padding: 18px;
@@ -84,6 +84,6 @@ body {
     margin: 0 auto;
 }
 
-.active, .contact-button:hover {
+.active, #contact-button:hover {
     background-color: #555;
 }
