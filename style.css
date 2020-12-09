@@ -8,6 +8,6 @@ body {
     height: 100%;
 }
 
-.container-fluid{
-    color: rgb(240, 248, 255);
+.content{
+    background-color: aliceblue;
 }
