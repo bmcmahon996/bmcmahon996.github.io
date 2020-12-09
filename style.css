@@ -1,5 +1,6 @@
 #hero-pic{
     border-radius: .5em;
+    margin: auto;
 }
 
 body {
@@ -14,6 +15,5 @@ body {
 }
 
 .hero-comp{
-    padding: 1em;
-    margin: auto;
+    padding: 2em;
 }
