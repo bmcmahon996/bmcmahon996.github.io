@@ -5,6 +5,7 @@ body {
 }
 
 .hero-pic{
+    background-color: aliceblue;
     border-radius: .5em;
     position: relative;
     width: 100%
