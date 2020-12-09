@@ -1,12 +1,12 @@
-img.hero-pic{
-    border-radius: .5em;
-    margin: auto;
-}
-
 body {
     background: url("bg-image1.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
+}
+
+.hero-pic{
+    border-radius: .5em;
+    margin: auto;
 }
 
 .content{
@@ -17,5 +17,5 @@ body {
 .hero-comp{
     border-radius: .3em;
     padding: 2em;
-    background-color: rgb(177, 187, 196);
+    background-color: rgb(146, 192, 233);
 }
