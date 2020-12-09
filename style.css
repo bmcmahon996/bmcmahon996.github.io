@@ -12,10 +12,11 @@ body {
 .content{
     background-color: aliceblue;
     height: 100%;
+    margin: 0.8em;
 }
 
 .hero-comp{
     border-radius: .3em;
     padding: 2em;
-    background-color: rgb(146, 192, 233);
+    background-color: rgb(171, 203, 231);
 }
