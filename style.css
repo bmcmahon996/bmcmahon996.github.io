@@ -54,4 +54,9 @@ body {
     display: none;
     overflow: hidden
 }
+.header-img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
 
