@@ -35,16 +35,6 @@ body {
 .subject-results{
     padding: 1em;
 }
-
-.active, .collapsible:hover {
-    background-color: #555;
-}
-
-.subject-table{
-    display: none;
-    overflow: hidden
-}
-
 .collapsible {
     background-color: #777;
     color: white;
@@ -56,3 +46,13 @@ body {
     outline: none;
     font-size: 15px;
   }
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.subject-table{
+    display: none;
+    overflow: hidden
+}
+
