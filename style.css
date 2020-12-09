@@ -4,8 +4,13 @@ body {
     height: 100%;
 }
 
-.hero-pic.img{
+.hero-pic{
     border-radius: .5em;
+    position: relative;
+    width: 100%
+}
+
+.hero-pic img{
     margin: auto;
 }
 
