@@ -64,3 +64,24 @@ body {
     object-fit:cover; 
 }
 
+.contact{
+    margin: 1em;
+    padding: 2em;
+    background-color: rgb(213, 225, 235);
+}
+
+.contact-button{
+    background-color: rgb(213, 225, 235);
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    outline: none;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: .3em;
+}
+
+.active, .contact-button:hover {
+    background-color: #555;
+}
