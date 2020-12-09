@@ -1,4 +1,4 @@
-#hero-pic{
+img.hero-pic{
     border-radius: .5em;
     margin: auto;
 }
@@ -15,5 +15,7 @@ body {
 }
 
 .hero-comp{
+    border-radius: .3em;
     padding: 2em;
+    background-color: rgb(177, 187, 196);
 }
