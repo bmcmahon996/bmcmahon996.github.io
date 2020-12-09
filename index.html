@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!--Meta data-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,6 +11,7 @@
         <title>Barry McMahon</title>
     </head>
     <body>
+        <!--Navbar-->
         <nav class="navbar navbar-inverse">
             <div class = "container-fluid">
                 <div class="navbar-header">
@@ -34,6 +36,7 @@
         <div class ="container-fluid"> 
             <div class = "background-image"></div>
             <div class= "content">
+                <!--Header Image-->
                 <div class ="row">
                     <div class = "col-sm-12">
                         <div id ="header">
@@ -41,7 +44,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
+                    <!--Hero Component with avatar picture-->
                     <div class="col-sm-4">
                         <div class = "hero-comp">
                             <div class= "hero-pic">
@@ -55,12 +60,15 @@
                             </ul>
                         </div>
                     </div>
+                    
                     <div class = "col-sm-8">
                         <div class= "main-content">
                             <h1 id = "academic-outline">Academic Outline</h1>
                             <p>Barry McMahon has studied Computer science for 4+ years as of the year 2020. Now in his final year, he has undertaken multiple projects
                                 and subjects that will serve him well in his future career.
                             </p>
+
+                                <!--Collapsible table of semesters 1 and 2-->
                                 <div class = "generic-content">
                                     <button type = "button" class="collapsible" aria-labelledby="semester1and2">Semester 1 and 2 subject results</button>
                                         <div class="subject-table">
@@ -124,6 +132,8 @@
                                             </table> 
                                         </div>    
                                 </div>
+
+                                <!--Collapsible table of semesters 3 and 4-->
                                 <div class = "generic-content">
                                     <button type = "button" class="collapsible" aria-labelledby="semester3and4">Semester 3 and 4 subject results</button>
                                     <div class="subject-table">
@@ -187,6 +197,8 @@
                                         </table> 
                                     </div>
                                 </div>
+
+                                <!--Collapsible table of semesters 5 and 6-->
                                 <div class = "generic-content">
                                     <button type = "button" class="collapsible" aria-labelledby="semester5and6">Semester 5 and 6 subject results</button>
                                     <div class="subject-table">
@@ -234,6 +246,7 @@
                     </div>
                 </div>
                 <div class="row">
+                    <!--Main body of information-->
                     <div class="col-sm-12">
                         <div class= "main-content">
                             <h1 id = "projects">Projects</h1>
@@ -293,6 +306,7 @@
                 </div>
                 <div class="row">
                     <div class = "col-sm-12">
+                        <!--Contact section-->
                         <div class ="contact">
                             <button type = "button" id="contact-button" aria-labelledby="contactDetailsButton" data-toggle="modal" data-target="#contactDetailsModal">Contact Details</button>
 
@@ -327,6 +341,7 @@
         </div> 
     </body>
 </html>
+<!--Collapsible script for tables-->
 <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
