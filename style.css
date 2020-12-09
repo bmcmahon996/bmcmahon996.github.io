@@ -11,7 +11,8 @@ body {
 }
 
 .hero-pic img{
-    margin: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .content{
