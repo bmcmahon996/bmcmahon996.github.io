@@ -77,9 +77,11 @@ body {
     width: 60%;
     border: none;
     outline: none;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: .3em;
+    display: block;
+    margin: 0 auto;
 }
 
 .active, .contact-button:hover {
