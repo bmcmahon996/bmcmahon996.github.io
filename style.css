@@ -8,7 +8,8 @@ body {
     background-color: aliceblue;
     border-radius: .5em;
     position: relative;
-    width: 100%
+    width: 100%;
+    padding: 2em;
 }
 
 .hero-pic img{
