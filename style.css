@@ -10,4 +10,10 @@ body {
 
 .content{
     background-color: aliceblue;
+    height: 100%;
+}
+
+.hero-comp{
+    padding: 1em;
+    margin: auto;
 }
