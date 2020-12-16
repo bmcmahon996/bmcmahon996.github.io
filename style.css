@@ -35,6 +35,7 @@ body {
 
 .generic-content{
     padding: 1em;
+    padding-top: 3em;
 }
 .collapsible {
     background-color: rgb(213, 225, 235);
