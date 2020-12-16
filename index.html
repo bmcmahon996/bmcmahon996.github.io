@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
         <title>Barry McMahon</title>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
         <!--Navbar-->
         <nav class="navbar navbar-inverse">
             <div class = "container-fluid">
@@ -276,6 +276,16 @@
                 </div>
                 <div class="row">
                     <!--Main body of information-->
+                    <nav class="col-sm-3" id="myScrollspy">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="#academic-outline">Academic Outline</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#work-exp">Work Experience</a></li>
+                            <li><a href="#area-int">Area of Interest</a></li>
+                            <li><a href="#hobby">Hobbies and Achievements</a></li>
+                            <li><a href="#contact-button">Contact</a></li>
+                        </ul>
+                      </nav>
                     <div class="col-sm-12">
                         <div class= "main-content">
                             <h1 id = "projects">Projects</h1>
@@ -355,7 +365,7 @@
                                             <a class="LI-simple-link" href='https://ie.linkedin.com/in/barry-mcmahon-dublin?trk=profile-badge'>Barry McMahon</a>
                                         </div>
                                         <h6>Email:</h6>
-                                        <a href="mailto:bmcmahontud@gmail.com" target="_blank"><img src= "https://icon-library.com/images/small-email-icon-png/small-email-icon-png-7.jpg" width="104px" height="64px"></img></a>
+                                        <a href="mailto:bmcmahontud@gmail.com" target= "_blank"></a><span class="glyphicon glyphicon-envelope"></span></a>
                                     </div>
                                     <div class="modal-footer">
                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
